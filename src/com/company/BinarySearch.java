@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main {
+public class BinarySearch {
 
     public static void main(String[] args) {
         int[] sortedArray = new int[100]; // массив из 100 элементов int
