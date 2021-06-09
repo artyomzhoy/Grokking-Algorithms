@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SelectionSort {
     public static void main(String[] args) {
-        int[] array = {10,5,99,24,41,27,15,0,24};
+        int[] array = {10, 5, 99, 24, 41, 27, 15, 0, 24};
         selectionSort(array);
     }
 
@@ -13,9 +13,9 @@ public class SelectionSort {
     public static void selectionSort(int[] array) {
         int min, container;
 
-        for(int index = 0; index < array.length; index++ ) {
+        for (int index = 0; index < array.length; index++) {
             min = index;
-            for(int searchMinValue = index + 1; searchMinValue < array.length; searchMinValue++) {
+            for (int searchMinValue = index + 1; searchMinValue < array.length; searchMinValue++) {
                 if (array[searchMinValue] < array[min]) {
                     min = searchMinValue;
                 }
